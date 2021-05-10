@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "198085684608",
+    "firebase_url": "https://cay-sees.firebaseio.com",
+    "project_id": "cay-sees",
+    "storage_bucket": "cay-sees.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198085684608:android:17c6e2df3036ad86",
+        "android_client_info": {
+          "package_name": "com.septmb.septmb.septmb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198085684608-9nhe28s0dtq601ieucq2j8vq1sbtgdau.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.septmb.septmb.septmb",
+            "certificate_hash": "e940598e58f0ff15c798b85d3d610f3c68068910"
+          }
+        },
+        {
+          "client_id": "198085684608-hth6p6tin26d4lp6tm5crcdj7a1r3e5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtHKlE0dmz4xmSiWag3TL64UYREq-M4Ew"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198085684608-hth6p6tin26d4lp6tm5crcdj7a1r3e5e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

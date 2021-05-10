@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_broadmoor_product_picture_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.ProductViewActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:background="#fff"
+        android:id="@+id/imageViewPage">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:visibility="gone"
+                android:layout_gravity="center"/>
+            <com.septmb.septmb.septmb.utils.ImageTouchView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:visibility="visible"
+                android:layout_gravity="center"/>
+            <ImageView
+                android:id="@+id/cancel"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/thin_back"
+                android:background="@drawable/green_fillrect"
+                android:padding="5dp"
+                android:layout_gravity="left|top"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_messaged_users"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Messaged Users"
+        android:icon="@drawable/contacts"
+        android:onClick="showMessagedUsers"/>
+    <item
+        android:id="@+id/action_request_history"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Interaction History"
+        android:icon="@drawable/talkicon"
+        android:onClick="showInteractionHistory"/>
+</menu>

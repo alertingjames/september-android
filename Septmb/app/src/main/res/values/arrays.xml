@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="search_option_item">
+        <item>Search it in ADS site</item>
+        <item>Search it in Amazon</item>
+        <item>Search it in Google</item>
+    </string-array>
+    <string-array name="image_option_item">
+        <item>Take a photo</item>
+        <item>From gallery</item>
+    </string-array>
+</resources>
